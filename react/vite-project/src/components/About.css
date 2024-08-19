@@ -1,0 +1,24 @@
+/* src/components/About.css */
+.about {
+    background: #f4f4f4;
+    padding: 3rem 1rem;
+  }
+  
+  .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+    .about h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
